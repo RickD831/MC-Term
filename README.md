@@ -1,3 +1,13 @@
+```text
+ __   __  _______  _______  _______  ______    __   __
+|  |_|  ||       ||       ||       ||    _ |  |  |_|  |
+|       ||       ||_     _||    ___||   | ||  |       |
+|       ||       |  |   |  |   |___ |   |_||_ |       |
+|       ||      _|  |   |  |    ___||    __  ||       |
+| ||_|| ||     |_   |   |  |   |___ |   |  | || ||_|| |
+|_|   |_||_______|  |___|  |_______||___|  |_||_|   |_|
+```
+
 # mcterm
 
 Windows 11 command-line and terminal UI control for Spotify, browsers, and other players that publish a Windows system media session (GSMTC).
