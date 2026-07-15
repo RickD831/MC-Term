@@ -33,6 +33,10 @@ mcterm now --json       # machine-readable state
 mcterm sessions         # available media sessions
 mcterm play|pause|toggle|next|previous|stop
 mcterm seek +30
+mcterm volume            # show master volume
+mcterm volume 50         # set master volume
+mcterm volume +5         # adjust master volume
+mcterm mute|unmute
 mcterm --session spotify
 ```
 
@@ -65,7 +69,7 @@ Running `mcterm` without a command opens the live terminal player:
 ╰────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-The timer and progress bar advance live. Use <kbd>Space</kbd> to play or pause, <kbd>Z</kbd>/<kbd>X</kbd> for the previous or next track, the arrow keys to seek 10 seconds, and <kbd>Q</kbd> to quit.
+The timer and progress bar advance live. Use <kbd>Space</kbd> to play or pause, <kbd>Z</kbd>/<kbd>X</kbd> for the previous or next track, <kbd>←</kbd>/<kbd>→</kbd> to seek 10 seconds, <kbd>↑</kbd>/<kbd>↓</kbd> to adjust master volume by 5%, <kbd>M</kbd> to mute, and <kbd>Q</kbd> to quit.
 
 ## Develop
 
