@@ -1,0 +1,41 @@
+# .NET build and publish output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+[Pp]ublish/
+
+# IDE and user-specific settings
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Tests, coverage, and logs
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.log
+
+# Local Codex/agent workspace metadata
+.agents/
+.codex/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.snk
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
